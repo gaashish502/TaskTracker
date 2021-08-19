@@ -1,0 +1,21 @@
+<div>
+    <h2>To-do-List</h2>
+    <input type="button" value="load data" (click)="loadData()"/><br/>
+    
+    <table>
+        <thead>
+<th>ID</th>
+<th>Name</th>
+<th>Task</th>
+<th>Dealine</th>
+</thead>
+<tbody *ngFor="let emp of employees">
+<td>{{emp.id}}</td>
+<td>{{emp.name}}</td>
+<td>{{emp.task}}</td>
+<td>{{emp.DeadLine}}</td>
+
+</tbody>
+
+    </table>
+</div>

@@ -1,0 +1,13 @@
+<div>
+    <h2>TO-DO-Task</h2>
+<form>
+    Id :<input type="text" #idRef/><br/>
+    Name :<input type="text" #nameRef /><br/>
+    Task :<input type="text" #taskRef/><br/>
+    Deadline :<input type="text" #deadlineRef/><br/>
+
+ 
+<input type="button" value="store value" (click)="storeData(idRef,nameRef,taskRef,deadlineRef)"/>
+   <button type="reset">reset</button>
+</form>
+</div>
